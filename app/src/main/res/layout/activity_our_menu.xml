@@ -32,7 +32,7 @@
         android:id="@+id/tvPrice1"
         android:layout_width="145dp"
         android:layout_height="45dp"
-        android:text=" Ksh 658"
+        android:text=" Ksh 660"
         android:textColor="#FAF2F2"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
