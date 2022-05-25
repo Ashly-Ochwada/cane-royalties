@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090000"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/tvMenu2"
+        android:layout_width="170dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:text="MENU"
+        android:textColor="#F8F2F2"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgVeg1"
+        android:layout_width="84dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMenu2"
+        app:layout_constraintEnd_toStartOf="@+id/tvMenu2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvMenu2"
+        app:srcCompat="@drawable/img_3" />
+
+    <ImageView
+        android:id="@+id/imgTomato"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMenu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvMenu2"
+        app:layout_constraintTop_toTopOf="@+id/tvMenu2"
+        app:srcCompat="@drawable/img_1" />
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="360dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:text="Delivers more than expected. It's noot a hotel but a place for life and royalty"
+        android:textColor="#F6F2F2"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMenu2" />
+
+    <ImageView
+        android:id="@+id/imgVegan"
+        android:layout_width="323dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSlogan"
+        app:srcCompat="@drawable/img_2" />
+
+    <Button
+        android:id="@+id/btnNxtMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgVegan"
+        app:layout_constraintVertical_bias="0.414" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
